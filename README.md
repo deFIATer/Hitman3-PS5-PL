@@ -13,10 +13,14 @@ Spolszczenie interfejsu (LOCR) do gry *Hitman: World of Assassination (Hitman 3)
 Instalacja jest bardzo prosta i polega na zastąpieniu/dodaniu zmodyfikowanych plików (łatek) w folderze z grą na Twoim dysku zewnętrznym lub serwerze FTP konsoli.
 
 1. Wypakuj grę `HITMAN 3` na swój dysk komputera lub upewnij się, że masz dostęp do plików gry przez klienta FTP (dla złamanej konsoli PS5).
-2. Otwórz folder z wypakowaną grą i przejdź do podfolderu **`Runtime`**. Powinieneś tam widzieć ogromne archiwa o nazwach takich jak `chunk0.rpkg`, `chunk1.rpkg` itd.
-3. Skopiuj **wszystkie pliki `.rpkg`** z tego repozytorium (zaczynające się od `chunkXpatch300.rpkg`) i wklej je bezpośrednio do folderu **`Runtime`** na konsoli/dysku z grą.
-4. Zbuduj ponownie pakiet gry na PS5 (jeśli uruchamiasz z pendrive'a/dysku zewnętrznego) lub po prostu uruchom grę, jeśli wklejałeś pliki bezpośrednio "w locie". Silnik sam zauważy pliki `patch300`, nada im najwyższy priorytet i nadpisze domyślny język angielski.
+2. Pobierz całe to repozytorium (np. jako plik ZIP i wypakuj).
+3. Skopiuj folder **`Runtime`** z pobranego repozytorium.
+4. Wklej go do głównego katalogu z grą na konsoli/dysku (tam, gdzie znajduje się już oryginalny folder `Runtime`). System zapyta, czy scalić foldery/nadpisać pliki – wyraź zgodę. Wszystkie łatki `patch300` trafią na swoje miejsce.
 5. Ciesz się grą po polsku!
 
 ---
-*Bazuje na oryginalnym spolszczeniu PC od społeczności Hitmana. Architektura PS5 przeliczona automatycznie.*
+
+## 👥 Twórcy i podziękowania
+
+* **Autorzy oryginalnych tekstów i tłumaczenia:** Ekipa z forum [GrajPoPolsku.pl](https://grajpopolsku.pl/forum/viewtopic.php?t=3740). Pełne zasługi za przetłumaczenie dziesiątek tysięcy linijek tekstu należą do nich!
+* **Port na konsolę PS5:** Ja jedynie przygotowałem paczkę, zautomatyzowałem proces iniekcji tekstów i przekompilowałem archiwa na poprawne pliki `.rpkg` przeznaczone do odczytu przez silnik gry na PlayStation 5.
